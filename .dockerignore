@@ -1,0 +1,857 @@
+# flyctl launch added from google-cloud-sdk 2/platform/ext-runtime/nodejs/.gitignore
+google-cloud-sdk 2/platform/ext-runtime/nodejs/**/*.pyc
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/.gitignore
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/*.pyc
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/.*.swp
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/*.log
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/*~
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/boto.egg-info
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/build
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/dist
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/MANIFEST
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/.DS_Store
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/.idea
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/.tox
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/.coverage
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/*flymake.py
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/.vscode
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/venv*
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/venv-2.5
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/**/env-2.5
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/tests/mturk/.gitignore
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/boto/tests/mturk/**/local.py
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/.gitignore
+# Build artifacts
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/*.py[cod]
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/oauth2client.egg-info
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/build
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/dist
+
+# Documentation-related
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/docs/_build
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/google_appengine
+
+# Test files
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/.tox
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/.cache
+
+# Django test database
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/db.sqlite3
+
+# Coverage files
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/.coverage
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/coverage.xml
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/nosetests.xml
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/htmlcov
+
+# Files with private / local data
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/scripts/local_test_setup
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/tests/data/key.json
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/tests/data/key.p12
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/tests/data/user-key.json
+
+# PyCharm configuration:
+google-cloud-sdk 2/platform/gsutil/gslib/vendored/oauth2client/**/.idea
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/apitools/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/apitools/**/*~
+google-cloud-sdk 2/platform/gsutil/third_party/apitools/**/*.py[cod]
+google-cloud-sdk 2/platform/gsutil/third_party/apitools/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/apitools/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/apitools/**/dist
+google-cloud-sdk 2/platform/gsutil/third_party/apitools/**/distribute-*
+
+# Test files
+google-cloud-sdk 2/platform/gsutil/third_party/apitools/**/.tox
+google-cloud-sdk 2/platform/gsutil/third_party/apitools/**/nosetests.xml
+
+# Coverage related
+google-cloud-sdk 2/platform/gsutil/third_party/apitools/**/.coverage
+google-cloud-sdk 2/platform/gsutil/third_party/apitools/**/coverage.xml
+google-cloud-sdk 2/platform/gsutil/third_party/apitools/**/htmlcov
+
+# Make sure a generated file isn't accidentally committed.
+google-cloud-sdk 2/platform/gsutil/third_party/apitools/**/reduced.pylintrc
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/.gitignore
+# Reminder:
+# - A leading slash means the pattern is anchored at the root.
+# - No leading slash means the pattern matches at any depth.
+
+# Python files
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/**/*.pyc
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/**/__pycache__
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/**/.tox
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/build
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/dist
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/.eggs
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/**/.coverage
+
+# Sphinx documentation
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/docs/_build
+
+# IDE project files
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/.pydevproject
+
+# vim python-mode plugin
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/.ropeproject
+
+# IntelliJ IDEA / PyCharm project files
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/.idea
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/*.iml
+
+# JS/node/npm/web dev files
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/**/node_modules
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/**/npm-debug.log
+
+# OS X metadata files
+google-cloud-sdk 2/platform/gsutil/third_party/argcomplete/**/.DS_Store
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/cachetools/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/cachetools/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/cachetools/**/*.pyc
+google-cloud-sdk 2/platform/gsutil/third_party/cachetools/**/*.swp
+google-cloud-sdk 2/platform/gsutil/third_party/cachetools/**/.cache
+google-cloud-sdk 2/platform/gsutil/third_party/cachetools/**/.coverage
+google-cloud-sdk 2/platform/gsutil/third_party/cachetools/**/.tox
+google-cloud-sdk 2/platform/gsutil/third_party/cachetools/**/MANIFEST
+google-cloud-sdk 2/platform/gsutil/third_party/cachetools/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/cachetools/**/dist
+google-cloud-sdk 2/platform/gsutil/third_party/cachetools/**/docs/_build
+google-cloud-sdk 2/platform/gsutil/third_party/cachetools/**/.pytest_cache
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/cachetools/docs/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/cachetools/docs/**/_build
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/certifi/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/certifi/**/*.pyc
+google-cloud-sdk 2/platform/gsutil/third_party/certifi/**/MANIFEST
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/chardet/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/chardet/**/*.pyc
+google-cloud-sdk 2/platform/gsutil/third_party/chardet/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/chardet/**/*.swp
+google-cloud-sdk 2/platform/gsutil/third_party/chardet/**/PKG-INFO
+google-cloud-sdk 2/platform/gsutil/third_party/chardet/dist
+google-cloud-sdk 2/platform/gsutil/third_party/chardet/build
+google-cloud-sdk 2/platform/gsutil/third_party/chardet/**/.hypothesis
+google-cloud-sdk 2/platform/gsutil/third_party/chardet/**/.cache
+google-cloud-sdk 2/platform/gsutil/third_party/chardet/**/.eggs
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/chardet/docs/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/chardet/docs/**/_build
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/.gitignore
+# Byte-compiled / optimized / DLL files
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/__pycache__
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/*.py[cod]
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/*$py.class
+
+# C extensions
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/*.so
+
+# Distribution / packaging
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.Python
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/develop-eggs
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/dist
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/downloads
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/eggs
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.eggs
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/lib
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/lib64
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/parts
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/sdist
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/var
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/wheels
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/pip-wheel-metadata
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/share/python-wheels
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.installed.cfg
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/*.egg
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/*.manifest
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/*.spec
+
+# Installer logs
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/pip-log.txt
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/htmlcov
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.tox
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.nox
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.coverage
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.coverage.*
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.cache
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/nosetests.xml
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/coverage.xml
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/*.cover
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.hypothesis
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.pytest_cache
+
+# Translations
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/*.mo
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/*.pot
+
+# Django stuff:
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/*.log
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/local_settings.py
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/db.sqlite3
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/db.sqlite3-journal
+
+# Flask stuff:
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/instance
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.webassets-cache
+
+# Scrapy stuff:
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.scrapy
+
+# Sphinx documentation
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/docs/_build
+
+# PyBuilder
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/target
+
+# Jupyter Notebook
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.ipynb_checkpoints
+
+# IPython
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/profile_default
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/ipython_config.py
+
+# pyenv
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# celery beat schedule file
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/celerybeat-schedule
+
+# SageMath parsed files
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/*.sage.py
+
+# Environments
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.env
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.venv
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/env
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/venv
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/ENV
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/env.bak
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/venv.bak
+
+# Spyder project settings
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.spyderproject
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.spyproject
+
+# Rope project settings
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.ropeproject
+
+# mkdocs documentation
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/site
+
+# mypy
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.mypy_cache
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.dmypy.json
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/dmypy.json
+
+# Pyre type checker
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.pyre
+
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/.idea
+google-cloud-sdk 2/platform/gsutil/third_party/charset_normalizer/**/char-dataset
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/*~
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/*.egg
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/*.pyc
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/*.pyo
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/*.swp
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/.DS_Store
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/.coverage
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/.tox
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/MANIFEST
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/docs/.build
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/dist
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/env*
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/htmlcov
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/tmp
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/coverage.xml
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/junit.xml
+google-cloud-sdk 2/platform/gsutil/third_party/funcsigs/**/.eggs
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/gcs-oauth2-boto-plugin/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/gcs-oauth2-boto-plugin/**/.py[cod]
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/.gitignore
+# Build artifacts
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/*.py[cod]
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/__pycache__
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/dist
+
+# Documentation-related
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/docs/_build
+
+# Test files
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/.nox
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/.tox
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/.cache
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/.pytest_cache
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/cert_path
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/key_path
+
+# Django test database
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/db.sqlite3
+
+# Coverage files
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/.coverage
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/coverage.xml
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/*sponge_log.xml
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/nosetests.xml
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/htmlcov
+
+# Files with private / local data
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/scripts/local_test_setup
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/tests/data/key.json
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/tests/data/key.p12
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/tests/data/user-key.json
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/system_tests/data
+
+# PyCharm configuration:
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/.idea
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/venv
+
+# Generated files
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/pylintrc
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/pylintrc.test
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/pytype_output
+
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/.python-version
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/.DS_Store
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/cert_path
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/key_path
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/env
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/**/.vscode
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/system_tests/system_tests_sync/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/system_tests/system_tests_sync/**/data
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/system_tests/system_tests_sync/**/secrets.tar
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/system_tests/system_tests_sync/app_engine_test_app/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python/system_tests/system_tests_sync/app_engine_test_app/**/lib
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/.gitignore
+# Build artifacts
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/*.py[cod]
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/__pycache__
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/dist
+
+# Documentation-related
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/docs/_build
+
+# Test files
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/.nox
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/.tox
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/.cache
+
+# Django test database
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/db.sqlite3
+
+# Coverage files
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/.coverage
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/coverage.xml
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/nosetests.xml
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/htmlcov
+
+# Files with private / local data
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/scripts/local_test_setup
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/tests/data/key.json
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/tests/data/key.p12
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/tests/data/user-key.json
+
+# PyCharm configuration:
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/.idea
+
+# Generated files
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/pylintrc
+google-cloud-sdk 2/platform/gsutil/third_party/google-auth-library-python-httplib2/**/pylintrc.test
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/.gitignore
+# Build artifacts
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/*.py[cod]
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/__pycache__
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/dist
+
+# Documentation-related
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/docs/_build
+
+# Test files
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/.nox
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/.tox
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/.cache
+
+# Django test database
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/db.sqlite3
+
+# Coverage files
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/.coverage
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/coverage.xml
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/nosetests.xml
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/htmlcov
+
+# Files with private / local data
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/scripts/local_test_setup
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/tests/data/key.json
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/tests/data/key.p12
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/tests/data/user-key.json
+
+# PyCharm configuration:
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/.idea
+
+# Generated files
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/pylintrc
+google-cloud-sdk 2/platform/gsutil/third_party/google-reauth-python/**/pylintrc.test
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/httplib2/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/*.egg
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/*.mo
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/*.py[cod]
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/*.so
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/.DS_Store
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/.cache
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/.coverage
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/.hg
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/.installed.cfg
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/.mr.developer.cfg
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/.project
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/.pydevproject
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/.pytest_cache/*
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/.tags*
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/.tox
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/_httplib2_test_cache/*
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/bin
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/default.profraw
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/develop-eggs
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/dist
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/eggs
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/lib
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/lib64
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/nosetests.xml
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/parts
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/pip-log.txt
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/sdist
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/var
+google-cloud-sdk 2/platform/gsutil/third_party/httplib2/**/venv*
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/idna/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/*.py[cod]
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/*.so
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/*.egg
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/dist
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/eggs
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/parts
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/bin
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/var
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/sdist
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/develop-eggs
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/.installed.cfg
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/lib
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/lib64
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/.idea
+google-cloud-sdk 2/platform/gsutil/third_party/idna/**/*.swp
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/mock/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/.*\.pyc
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/*.rej
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/html
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/mock\.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/mock\.wpu
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/\.tox
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/dist
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/latex
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/.*\$py\.class
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/runtox
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/*~
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/*.pyc
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/.testrepository
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/.*.swp
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/AUTHORS
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/ChangeLog
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/.eggs
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/README.saved
+google-cloud-sdk 2/platform/gsutil/third_party/mock/**/README.html
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/monotonic/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/monotonic/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/monotonic/**/dist
+google-cloud-sdk 2/platform/gsutil/third_party/monotonic/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/monotonic/**/*.pyc
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/pyasn1/.gitignore
+# Python stuff
+google-cloud-sdk 2/platform/gsutil/third_party/pyasn1/**/*.pyc
+google-cloud-sdk 2/platform/gsutil/third_party/pyasn1/**/__pycache__
+
+# vim swapfiles
+google-cloud-sdk 2/platform/gsutil/third_party/pyasn1/**/*.sw?
+
+# python packaging
+google-cloud-sdk 2/platform/gsutil/third_party/pyasn1/**/MANIFEST
+google-cloud-sdk 2/platform/gsutil/third_party/pyasn1/**/dist
+google-cloud-sdk 2/platform/gsutil/third_party/pyasn1/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/pyasn1/**/*.egg-info
+
+# PyCharm stuff
+google-cloud-sdk 2/platform/gsutil/third_party/pyasn1/**/.idea
+
+# Sphinx template
+google-cloud-sdk 2/platform/gsutil/third_party/pyasn1/**/docs/source/.templates/layout.html
+
+# Eclipse stuff
+google-cloud-sdk 2/platform/gsutil/third_party/pyasn1/**/.project
+google-cloud-sdk 2/platform/gsutil/third_party/pyasn1/**/.pydevproject
+
+# Virtual envs
+google-cloud-sdk 2/platform/gsutil/third_party/pyasn1/**/venv*
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/.gitignore
+# Created by https://www.gitignore.io/api/python,pycharm
+
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/working/*
+
+### PyCharm ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff:
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/**/workspace.xml
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/**/tasks.xml
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/dictionaries
+
+# Sensitive or high-churn files:
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/**/dataSources
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/**/dataSources.ids
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/**/dataSources.xml
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/**/dataSources.local.xml
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/**/sqlDataSources.xml
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/**/dynamic.xml
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/**/uiDesigner.xml
+
+# Gradle:
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/**/gradle.xml
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/**/libraries
+
+# CMake
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/cmake-build-debug
+
+# Mongo Explorer plugin:
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/**/mongoSettings.xml
+
+## File-based project format:
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/out
+
+# mpeltonen/sbt-idea plugin
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea_modules
+
+# JIRA plugin
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/replstate.xml
+
+# Ruby plugin and RubyMine
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/.rakeTasks
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/com_crashlytics_export_strings.xml
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/crashlytics.properties
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/crashlytics-build.properties
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/fabric.properties
+
+### PyCharm Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/*.iml
+# modules.xml
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/misc.xml
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/*.ipr
+
+# Sonarlint plugin
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.idea/sonarlint
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/__pycache__
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/*.py[cod]
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/*$py.class
+
+# C extensions
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/*.so
+
+# Distribution / packaging
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.Python
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/develop-eggs
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/dist
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/downloads
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/eggs
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.eggs
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/lib
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/lib64
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/parts
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/sdist
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/var
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/wheels
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.installed.cfg
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/*.manifest
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/*.spec
+
+# Installer logs
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/pip-log.txt
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/htmlcov
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.tox
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.coverage
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.coverage.*
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.cache
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/nosetests.xml
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/coverage.xml
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/*.cover
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.hypothesis
+
+# Translations
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/*.mo
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/*.pot
+
+# Django stuff:
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/*.log
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/local_settings.py
+
+# Flask stuff:
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/instance
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.webassets-cache
+
+# Scrapy stuff:
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.scrapy
+
+# Sphinx documentation
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/docs/_build
+
+# PyBuilder
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/target
+
+# Jupyter Notebook
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.ipynb_checkpoints
+
+# pyenv
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.python-version
+
+# celery beat schedule file
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/celerybeat-schedule
+
+# SageMath parsed files
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/*.sage.py
+
+# Environments
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.env
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.venv
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/env
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/venv
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/ENV
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/env.bak
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/venv.bak
+
+# Spyder project settings
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.spyderproject
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.spyproject
+
+# Rope project settings
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.ropeproject
+
+# mkdocs documentation
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/site
+
+# mypy
+google-cloud-sdk 2/platform/gsutil/third_party/pyparsing/**/.mypy_cache
+
+# End of https://www.gitignore.io/api/python,pycharm
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/pyu2f/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/pyu2f/**/*~
+google-cloud-sdk 2/platform/gsutil/third_party/pyu2f/**/*.py[cod]
+google-cloud-sdk 2/platform/gsutil/third_party/pyu2f/**/.pytest_cache
+
+google-cloud-sdk 2/platform/gsutil/third_party/pyu2f/**/.tox
+google-cloud-sdk 2/platform/gsutil/third_party/pyu2f/**/.cache
+
+google-cloud-sdk 2/platform/gsutil/third_party/pyu2f/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/pyu2f/**/dist
+google-cloud-sdk 2/platform/gsutil/third_party/pyu2f/**/*.egg-info
+
+google-cloud-sdk 2/platform/gsutil/third_party/pyu2f/**/*.bak
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/requests/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/.coverage
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/MANIFEST
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/coverage.xml
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/nosetests.xml
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/junit-report.xml
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/pylint.txt
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/toy.py
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/.cache
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/cover
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/docs/_build
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/requests.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/*.pyc
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/*.swp
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/*.egg
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/env
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/.venv
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/.eggs
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/.tox
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/.pytest_cache
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/.vscode
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/.eggs
+
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/.workon
+
+# in case you work with IntelliJ/PyCharm
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/.idea
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/*.iml
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/.python-version
+
+
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/t.py
+
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/t2.py
+google-cloud-sdk 2/platform/gsutil/third_party/requests/**/dist
+
+google-cloud-sdk 2/platform/gsutil/third_party/requests/.mypy_cache
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/requests/docs/_themes/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/requests/docs/_themes/**/*.pyc
+google-cloud-sdk 2/platform/gsutil/third_party/requests/docs/_themes/**/*.pyo
+google-cloud-sdk 2/platform/gsutil/third_party/requests/docs/_themes/**/.DS_Store
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/*.py[cod]
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/*.swp
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/*~
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/venv
+
+# C extensions
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/*.so
+
+# Packages
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/*.egg
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/dist
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/eggs
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/parts
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/bin
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/var
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/sdist
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/develop-eggs
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/.installed.cfg
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/lib
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/lib64
+
+# Installer logs
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/pip-log.txt
+
+# Unit test / coverage reports
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/.coverage
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/.tox
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/nosetests.xml
+
+# Translations
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/*.mo
+
+# Mr Developer
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/.mr.developer.cfg
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/.project
+google-cloud-sdk 2/platform/gsutil/third_party/retry-decorator/**/.pydevproject
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/rsa/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/rsa/**/*.py[co]
+google-cloud-sdk 2/platform/gsutil/third_party/rsa/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/rsa/**/.*.swp
+
+google-cloud-sdk 2/platform/gsutil/third_party/rsa/.idea
+
+google-cloud-sdk 2/platform/gsutil/third_party/rsa/dist
+google-cloud-sdk 2/platform/gsutil/third_party/rsa/distribute*.tar.gz
+google-cloud-sdk 2/platform/gsutil/third_party/rsa/distribute*.egg
+
+google-cloud-sdk 2/platform/gsutil/third_party/rsa/**/.tox
+google-cloud-sdk 2/platform/gsutil/third_party/rsa/**/.coverage
+google-cloud-sdk 2/platform/gsutil/third_party/rsa/**/.coverage.*
+google-cloud-sdk 2/platform/gsutil/third_party/rsa/**/.cache
+google-cloud-sdk 2/platform/gsutil/third_party/rsa/**/.pytest_cache
+google-cloud-sdk 2/platform/gsutil/third_party/rsa/**/__pycache__
+
+google-cloud-sdk 2/platform/gsutil/third_party/rsa/build
+google-cloud-sdk 2/platform/gsutil/third_party/rsa/doc/_build
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/six/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/six/**/*.pyc
+google-cloud-sdk 2/platform/gsutil/third_party/six/**/build
+google-cloud-sdk 2/platform/gsutil/third_party/six/**/dist
+google-cloud-sdk 2/platform/gsutil/third_party/six/**/MANIFEST
+google-cloud-sdk 2/platform/gsutil/third_party/six/**/documentation/_build
+google-cloud-sdk 2/platform/gsutil/third_party/six/**/.tox
+google-cloud-sdk 2/platform/gsutil/third_party/six/**/six.egg-info
+
+# flyctl launch added from google-cloud-sdk 2/platform/gsutil/third_party/urllib3/.gitignore
+google-cloud-sdk 2/platform/gsutil/third_party/urllib3/**/.*
+!google-cloud-sdk 2/platform/gsutil/third_party/urllib3/.github
+google-cloud-sdk 2/platform/gsutil/third_party/urllib3/**/*.py[co]
+google-cloud-sdk 2/platform/gsutil/third_party/urllib3/**/*.egg
+google-cloud-sdk 2/platform/gsutil/third_party/urllib3/**/*.egg-info
+google-cloud-sdk 2/platform/gsutil/third_party/urllib3/**/*.log
+google-cloud-sdk 2/platform/gsutil/third_party/urllib3/dist
+google-cloud-sdk 2/platform/gsutil/third_party/urllib3/build
+google-cloud-sdk 2/platform/gsutil/third_party/urllib3/docs/_build
+google-cloud-sdk 2/platform/gsutil/third_party/urllib3/**/coverage.xml
+fly.toml
