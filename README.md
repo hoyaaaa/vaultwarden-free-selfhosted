@@ -156,3 +156,12 @@ To set this up in the Bitwarden app or web interface:
 - Optionally, you can configure backups and further security enhancements based on your needs.
 
 For any issues, please consult the official documentation for [Vaultwarden](https://github.com/dani-garcia/vaultwarden), [Fly.io](https://fly.io/docs/), and [Google Cloud](https://cloud.google.com/).
+
+## Contribute
+
+If you would like to contribute to this project, please follow the guidelines below:
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Make your changes.
+4. Submit a Pull Request (PR) to the **main branch**.

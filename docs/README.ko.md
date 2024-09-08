@@ -152,3 +152,12 @@ Bitwarden 앱 또는 웹 인터페이스에서 다음과 같이 설정합니다:
 - 백업 및 추가 보안 강화 구성을 필요에 따라 설정할 수 있습니다.
 
 문제가 있을 경우, [Vaultwarden](https://github.com/dani-garcia/vaultwarden), [Fly.io](https://fly.io/docs/), 그리고 [Google Cloud](https://cloud.google.com/)의 공식 문서를 참조하십시오.
+
+## 기여
+
+이 프로젝트에 기여하고 싶다면, 아래의 지침을 따라주세요:
+
+1. 저장소를 포크하세요.
+2. 기능 브랜치를 생성하세요.
+3. 변경 사항을 반영하세요.
+4. **main 브랜치**로 Pull Request(PR)를 제출하세요.
