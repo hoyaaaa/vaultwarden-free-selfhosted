@@ -1,12 +1,6 @@
-# fly.toml app configuration file generated for vaultwarden-hoya on 2024-08-29T14:11:54+09:00
-#
-# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
-#
-
-app = 'vaultwarden-hoya'
+app = <APP_NAME>  # Replace with your unique app name, ex: 'vaultwarden-hoya'
 primary_region = 'nrt'
 
-[build]
 
 [http_service]
   internal_port = 80
@@ -15,6 +9,9 @@ primary_region = 'nrt'
   auto_start_machines = true
   min_machines_running = 0
   processes = ['app']
+
+[env]
+  BUCKET_NAME = <BUCKET_NAME>  # Replace with your GCloud bucket name
 
 [[vm]]
   memory = '1gb'
