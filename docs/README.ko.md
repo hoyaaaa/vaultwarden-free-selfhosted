@@ -26,9 +26,9 @@ Google Cloud Storage에 접근하기 위해 사용할 서비스 계정 키파일
 
 Google Cloud 콘솔 또는 `gcloud`를 통해 API를 활성화할 수 있습니다:
 
-...bash
+```bash
 gcloud services enable storage.googleapis.com
-...
+```
 
 ##### 2. 서비스 계정 생성
 
@@ -76,17 +76,17 @@ Google Cloud Storage 버킷을 생성하려면 다음 단계를 따릅니다:
 
 `fly.toml` 파일에서 `<APP_NAME>`을 Fly.io 앱의 고유한 이름으로 교체합니다. 이 이름은 전 세계적으로 고유해야 하며, 호스트 이름 생성에 사용됩니다.
 
-...bash
+```toml
 app = "<APP_NAME>"  # 고유한 앱 이름으로 교체
-...
+```
 
 2. **`BUCKET_NAME` 업데이트**:
 
 Google Cloud Storage 버킷을 마운트하려면 `<BUCKET_NAME>`을 Google Cloud Storage에서 생성한 버킷 이름으로 교체합니다.
 
-...bash
+```toml
 BUCKET_NAME = "<BUCKET_NAME>"  # GCloud 버킷 이름으로 교체
-...
+```
 
 `APP_NAME`과 `BUCKET_NAME` 모두 배포를 진행하기 전에 올바르게 설정되었는지 확인하십시오.
 
@@ -98,9 +98,9 @@ Vaultwarden 설정을 Fly.io에 배포하려면 다음 단계를 따르십시오
 
 Linux/Mac에서 Fly.io의 CLI를 설치하려면 다음 명령어를 실행합니다:
 
-...bash
+```bash
 curl -L https://fly.io/install.sh | sh
-...
+```
 
 Windows의 경우, 공식 [문서](https://fly.io/docs/hands-on/install-flyctl/)를 참조하십시오.
 
@@ -108,17 +108,17 @@ Windows의 경우, 공식 [문서](https://fly.io/docs/hands-on/install-flyctl/)
 
 CLI를 사용하여 Fly.io 계정에 로그인합니다:
 
-...bash
+```bash
 flyctl auth login
-...
+```
 
 #### 3. Fly.io 앱 초기화
 
 프로젝트 루트 폴더로 이동하여 Fly.io 앱을 초기화하려면 다음 명령어를 실행합니다:
 
-...bash
+```bash
 flyctl launch
-...
+```
 
 이 명령어는 앱 이름, 지역, 배포 여부 등의 입력을 요청합니다. `fly.toml` 파일에 설정한 앱 이름을 사용하고, 가까운 지역을 선택하며 즉시 배포할지 나중에 배포할지 선택합니다.
 
@@ -126,9 +126,9 @@ flyctl launch
 
 앱 설정을 완료한 후 다음 명령어를 실행하여 Vaultwarden Dockerfile을 배포합니다:
 
-...bash
+```bash
 flyctl deploy
-...
+```
 
 이 명령어는 도커 컨테이너를 빌드하고 Fly.io 인프라에 Vaultwarden 인스턴스를 배포합니다.
 
