@@ -1,9 +1,5 @@
 # Free Self-hosted Vaultwarden Setup with Fly.io, and Google Cloud Storage
 
-[English](docs/README.md)
-
----
-
 이 가이드는 Fly.io(도커 컨테이너를 실행할 수 있는 무료 티어 서비스)와 Google Cloud Storage를 사용하여 무료로 Vaultwarden 인스턴스를 셀프 호스팅하는 방법을 안내합니다. 파일 저장과 백업을 위한 안정적인 스토리지로 Google Cloud Storage를 활용하며, 이 모든 것은 무료 티어 내에서 가능합니다.
 
 - **Vaultwarden**: 2FA(이중 인증) 등의 기능을 무료로 지원하는 Bitwarden의 셀프 호스팅.
