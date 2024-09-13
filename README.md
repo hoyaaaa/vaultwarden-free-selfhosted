@@ -8,9 +8,11 @@ This guide will help you set up a free self-hosted Vaultwarden instance using Fl
 
 - **Vaultwarden**: A self-hosted implementation of Bitwarden, supporting features like 2FA (Two-Factor Authentication) for free.
 - **Fly.io**: A service that allows you to deploy Docker containers for free.
-- **Google Cloud Storage**: Used for more stable file storage and backups, which can also be utilized within the free tier.
+- **Google Cloud Storage** (Optional): Used for more stable file storage and backups, which can also be utilized within the free tier. _In case Fly.io’s free tier comes to an end, I recommend using this to back up your data. If you don’t use this feature, Fly.io’s own disk will be used, which is also available under the free tier._
 
 ## Steps to Set Up
+
+⚠️ Note: If you want to skip the Google Cloud setup, please proceed to [3](#3-edit-flytoml-file).
 
 ### 1. Generate a Google Cloud Keyfile
 
@@ -84,7 +86,9 @@ In the `fly.toml` file, replace `<APP_NAME>` with a unique name for your Fly.io 
 app = "<APP_NAME>"  # Replace with your unique app name
 ```
 
-2. **Update `BUCKET_NAME`**:
+⚠️ Note: If you’re using Google Cloud, proceed to `2-1`. If not, proceed to `2-2`.
+
+2-1. **Update `BUCKET_NAME`**:
 
 To mount the Google Cloud Storage bucket, replace `<BUCKET_NAME>` with the name of the bucket you created in Google Cloud Storage.
 
@@ -92,7 +96,15 @@ To mount the Google Cloud Storage bucket, replace `<BUCKET_NAME>` with the name 
 BUCKET_NAME = "<BUCKET_NAME>"  # Replace with your GCloud bucket name
 ```
 
-Ensure that both the `APP_NAME` and `BUCKET_NAME` are correctly set before proceeding with the deployment.
+2-2. **Build docker image without Dockerfile**
+
+To use Fly.io’s own disk instead of Google Cloud, please uncomment the section below.
+
+```toml
+# To skip the GCP setup, please uncomment the section below.
+[build]
+  image = "vaultwarden/server:latest"
+```
 
 ### 4. Install Fly.io CLI and Deploy the Dockerfile
 

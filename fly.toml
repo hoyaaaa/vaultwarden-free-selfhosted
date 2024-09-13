@@ -1,6 +1,9 @@
 app = <APP_NAME>  # Replace with your unique app name, ex: 'vaultwarden-hoya'
 primary_region = 'nrt'
 
+# To skip the GCP setup, please uncomment the section below.
+# [build]
+#   image = "vaultwarden/server:latest"
 
 [http_service]
   internal_port = 80
